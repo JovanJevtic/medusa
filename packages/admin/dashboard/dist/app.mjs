@@ -14,7 +14,7 @@ import {
 } from "./chunk-TOMHEGT5.mjs";
 import {
   I18n
-} from "./chunk-7ZCHIREB.mjs";
+} from "./chunk-SHA2UVUF.mjs";
 import {
   Close,
   Content,
@@ -110,7 +110,7 @@ import {
 import "./chunk-WRXTMI2J.mjs";
 import {
   languages
-} from "./chunk-RVOEOEYF.mjs";
+} from "./chunk-WRFZQUR6.mjs";
 import "./chunk-AI7M5TGP.mjs";
 import {
   useSalesChannels
@@ -3224,11 +3224,11 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./product-list-MVB5FMK5.mjs"),
+                lazy: () => import("./product-list-7JZVC7GS.mjs"),
                 children: [
                   {
                     path: "create",
-                    lazy: () => import("./product-create-BZ4DP2VB.mjs")
+                    lazy: () => import("./product-create-FMKT2FO2.mjs")
                   },
                   {
                     path: "import",
@@ -3236,7 +3236,7 @@ var RouteMap = [
                   },
                   {
                     path: "export",
-                    lazy: () => import("./product-export-ZNOQF6SO.mjs")
+                    lazy: () => import("./product-export-OMBYJWZQ.mjs")
                   }
                 ]
               },
@@ -3251,7 +3251,7 @@ var RouteMap = [
                 children: [
                   {
                     path: "",
-                    lazy: () => import("./product-detail-MX3L3FVX.mjs"),
+                    lazy: () => import("./product-detail-4ZHQLZM2.mjs"),
                     children: [
                       {
                         path: "edit",
@@ -3263,7 +3263,7 @@ var RouteMap = [
                       },
                       {
                         path: "sales-channels",
-                        lazy: () => import("./product-sales-channels-UBKEP57U.mjs")
+                        lazy: () => import("./product-sales-channels-R75PS56N.mjs")
                       },
                       {
                         path: "attributes",
@@ -3275,7 +3275,7 @@ var RouteMap = [
                       },
                       {
                         path: "media",
-                        lazy: () => import("./product-media-UQKLQTPN.mjs")
+                        lazy: () => import("./product-media-AE62HUT2.mjs")
                       },
                       {
                         path: "prices",
@@ -3301,7 +3301,7 @@ var RouteMap = [
                   },
                   {
                     path: "variants/:variant_id",
-                    lazy: () => import("./product-variant-detail-JOI34MY5.mjs"),
+                    lazy: () => import("./product-variant-detail-3COEH2FI.mjs"),
                     handle: {
                       crumb: (data) => data.variant.title
                     },
@@ -3333,7 +3333,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./category-list-X2YCNEDR.mjs"),
+                lazy: () => import("./category-list-P3EHN3PW.mjs"),
                 children: [
                   {
                     path: "create",
@@ -3347,7 +3347,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./category-detail-SIGMZLNQ.mjs"),
+                lazy: () => import("./category-detail-UMHN6QW3.mjs"),
                 handle: {
                   crumb: (data) => data.product_category.name
                 },
@@ -3358,7 +3358,7 @@ var RouteMap = [
                   },
                   {
                     path: "products",
-                    lazy: () => import("./category-products-BKTQOO3A.mjs")
+                    lazy: () => import("./category-products-2JGDE42H.mjs")
                   },
                   {
                     path: "organize",
@@ -3381,11 +3381,11 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./order-list-KRYLKI7W.mjs")
+                lazy: () => import("./order-list-VYRMOFND.mjs")
               },
               {
                 path: ":id",
-                lazy: () => import("./order-detail-PNX4LG5T.mjs"),
+                lazy: () => import("./order-detail-ZUSNWT6G.mjs"),
                 children: [
                   {
                     path: "fulfillment",
@@ -3405,19 +3405,19 @@ var RouteMap = [
                   },
                   {
                     path: "returns",
-                    lazy: () => import("./order-create-return-YDWFZVKG.mjs")
+                    lazy: () => import("./order-create-return-FQACORB6.mjs")
                   },
                   {
                     path: "claims",
-                    lazy: () => import("./order-create-claim-N6OSOJ5Y.mjs")
+                    lazy: () => import("./order-create-claim-LV3P6OY6.mjs")
                   },
                   {
                     path: "exchanges",
-                    lazy: () => import("./order-create-exchange-TR3XVOMV.mjs")
+                    lazy: () => import("./order-create-exchange-ASEXDIBH.mjs")
                   },
                   {
                     path: "edits",
-                    lazy: () => import("./order-create-edit-2C2IX7GU.mjs")
+                    lazy: () => import("./order-create-edit-MQNDSWNK.mjs")
                   },
                   {
                     path: "refund",
@@ -3436,7 +3436,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./promotion-list-2Z5HLHI5.mjs")
+                lazy: () => import("./promotion-list-NZZJN4B6.mjs")
               },
               {
                 path: "create",
@@ -3444,7 +3444,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./promotion-detail-MHJRRNYR.mjs"),
+                lazy: () => import("./promotion-detail-FKFVB5AM.mjs"),
                 handle: {
                   // TODO: Re-add type when it's available again
                   crumb: (data) => data.promotion?.code
@@ -3473,7 +3473,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./campaign-list-J4EWQ4SY.mjs"),
+                lazy: () => import("./campaign-list-7S3IT455.mjs"),
                 children: []
               },
               {
@@ -3482,7 +3482,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./campaign-detail-J3VZMKHD.mjs"),
+                lazy: () => import("./campaign-detail-SK36MFP4.mjs"),
                 handle: { crumb: (data) => data.campaign.name },
                 children: [
                   {
@@ -3499,7 +3499,7 @@ var RouteMap = [
                   },
                   {
                     path: "add-promotions",
-                    lazy: () => import("./add-campaign-promotions-WBFAXTE6.mjs")
+                    lazy: () => import("./add-campaign-promotions-OQPZBRKW.mjs")
                   }
                 ]
               }
@@ -3514,7 +3514,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./collection-list-DIRV5JSS.mjs"),
+                lazy: () => import("./collection-list-D33HVBUV.mjs"),
                 children: [
                   {
                     path: "create",
@@ -3524,7 +3524,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./collection-detail-ZBLRLAVN.mjs"),
+                lazy: () => import("./collection-detail-MSV67M5Q.mjs"),
                 handle: {
                   crumb: (data) => data.collection.title
                 },
@@ -3535,7 +3535,7 @@ var RouteMap = [
                   },
                   {
                     path: "products",
-                    lazy: () => import("./collection-add-products-QVGBX6ZB.mjs")
+                    lazy: () => import("./collection-add-products-5G6B76XQ.mjs")
                   }
                 ]
               }
@@ -3550,17 +3550,17 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./price-list-list-JNKIKETI.mjs"),
+                lazy: () => import("./price-list-list-JOZVA3Y7.mjs"),
                 children: [
                   {
                     path: "create",
-                    lazy: () => import("./price-list-create-ZWJPL3NY.mjs")
+                    lazy: () => import("./price-list-create-XUC7NJPY.mjs")
                   }
                 ]
               },
               {
                 path: ":id",
-                lazy: () => import("./price-list-detail-L67PQDB6.mjs"),
+                lazy: () => import("./price-list-detail-MQBSS2B3.mjs"),
                 handle: {
                   crumb: (data) => data.price_list.title
                 },
@@ -3571,11 +3571,11 @@ var RouteMap = [
                   },
                   {
                     path: "configuration",
-                    lazy: () => import("./price-list-configuration-2MGMOCQZ.mjs")
+                    lazy: () => import("./price-list-configuration-H3JW2RQ5.mjs")
                   },
                   {
                     path: "products/add",
-                    lazy: () => import("./price-list-prices-add-A736SLS3.mjs")
+                    lazy: () => import("./price-list-prices-add-I5FS4A3A.mjs")
                   },
                   {
                     path: "products/edit",
@@ -3594,7 +3594,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./customer-list-4YDXGUCQ.mjs"),
+                lazy: () => import("./customer-list-KXE2TVBM.mjs"),
                 children: [
                   {
                     path: "create",
@@ -3604,7 +3604,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./customer-detail-Q7H65X64.mjs"),
+                lazy: () => import("./customer-detail-7HBBI27U.mjs"),
                 handle: {
                   // Re-add type when it's available again
                   crumb: (data) => data.customer.email
@@ -3616,7 +3616,7 @@ var RouteMap = [
                   },
                   {
                     path: "add-customer-groups",
-                    lazy: () => import("./customers-add-customer-group-6B3GAYEZ.mjs")
+                    lazy: () => import("./customers-add-customer-group-DDBZLBFO.mjs")
                   },
                   {
                     path: "metadata/edit",
@@ -3635,7 +3635,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./customer-group-list-LPMRPOVW.mjs"),
+                lazy: () => import("./customer-group-list-4K3JGBFR.mjs"),
                 children: [
                   {
                     path: "create",
@@ -3645,7 +3645,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./customer-group-detail-2H57NA2H.mjs"),
+                lazy: () => import("./customer-group-detail-L55D7POK.mjs"),
                 handle: {
                   crumb: (data) => data.customer_group.name
                 },
@@ -3656,7 +3656,7 @@ var RouteMap = [
                   },
                   {
                     path: "add-customers",
-                    lazy: () => import("./customer-group-add-customers-LQ6RZR66.mjs")
+                    lazy: () => import("./customer-group-add-customers-E3RR5DIY.mjs")
                   },
                   {
                     path: "metadata/edit",
@@ -3675,7 +3675,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./reservation-list-6H6I3KLC.mjs"),
+                lazy: () => import("./reservation-list-DJUGHYLK.mjs"),
                 children: [
                   {
                     path: "create",
@@ -3713,7 +3713,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./inventory-list-J2C7TS7G.mjs"),
+                lazy: () => import("./inventory-list-M772RMXN.mjs"),
                 children: [
                   {
                     path: "create",
@@ -3723,7 +3723,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./inventory-detail-YQJ2PLOX.mjs"),
+                lazy: () => import("./inventory-detail-L3VBDUHQ.mjs"),
                 handle: {
                   crumb: (data) => data.inventory_item.title ?? data.inventory_item.sku
                 },
@@ -3776,14 +3776,14 @@ var RouteMap = [
           {
             path: "profile",
             errorElement: /* @__PURE__ */ jsx17(ErrorBoundary, {}),
-            lazy: () => import("./profile-detail-RGU6A5U7.mjs"),
+            lazy: () => import("./profile-detail-L6X3ZHPT.mjs"),
             handle: {
               crumb: () => t("profile.domain")
             },
             children: [
               {
                 path: "edit",
-                lazy: () => import("./profile-edit-WU57UEPJ.mjs")
+                lazy: () => import("./profile-edit-SIOUUTZW.mjs")
               }
             ]
           },
@@ -3797,17 +3797,17 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./region-list-JSXRMMLB.mjs"),
+                lazy: () => import("./region-list-FLUJ6IA6.mjs"),
                 children: [
                   {
                     path: "create",
-                    lazy: () => import("./region-create-JYH7PD2U.mjs")
+                    lazy: () => import("./region-create-EHH2HCOQ.mjs")
                   }
                 ]
               },
               {
                 path: ":id",
-                lazy: () => import("./region-detail-KABKGPG7.mjs"),
+                lazy: () => import("./region-detail-5DENN6PA.mjs"),
                 handle: {
                   crumb: (data) => data.region.name
                 },
@@ -3818,7 +3818,7 @@ var RouteMap = [
                   },
                   {
                     path: "countries/add",
-                    lazy: () => import("./region-add-countries-XUNS2ZIC.mjs")
+                    lazy: () => import("./region-add-countries-FMPMMJFF.mjs")
                   }
                 ]
               }
@@ -3827,7 +3827,7 @@ var RouteMap = [
           {
             path: "store",
             errorElement: /* @__PURE__ */ jsx17(ErrorBoundary, {}),
-            lazy: () => import("./store-detail-BTSPJ5DA.mjs"),
+            lazy: () => import("./store-detail-E6IJYN26.mjs"),
             handle: {
               crumb: () => t("store.domain")
             },
@@ -3838,7 +3838,7 @@ var RouteMap = [
               },
               {
                 path: "currencies",
-                lazy: () => import("./store-add-currencies-ZOCLP5CF.mjs")
+                lazy: () => import("./store-add-currencies-GDQXF7X4.mjs")
               },
               {
                 path: "metadata/edit",
@@ -3856,11 +3856,11 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./user-list-2M7KSYPO.mjs"),
+                lazy: () => import("./user-list-HKEHYLPM.mjs"),
                 children: [
                   {
                     path: "invite",
-                    lazy: () => import("./user-invite-H55VXV4Y.mjs")
+                    lazy: () => import("./user-invite-TVJ3VQDX.mjs")
                   }
                 ]
               },
@@ -3893,7 +3893,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./sales-channel-list-FVLAZUFY.mjs"),
+                lazy: () => import("./sales-channel-list-RN5ZI455.mjs"),
                 children: [
                   {
                     path: "create",
@@ -3903,7 +3903,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./sales-channel-detail-JWTQT5Y7.mjs"),
+                lazy: () => import("./sales-channel-detail-XA6RAK52.mjs"),
                 handle: {
                   crumb: (data) => data.sales_channel.name
                 },
@@ -3914,7 +3914,7 @@ var RouteMap = [
                   },
                   {
                     path: "add-products",
-                    lazy: () => import("./sales-channel-add-products-AHYMLY64.mjs")
+                    lazy: () => import("./sales-channel-add-products-DOYS3ELU.mjs")
                   },
                   {
                     path: "metadata/edit",
@@ -3949,7 +3949,7 @@ var RouteMap = [
                 children: [
                   {
                     path: "",
-                    lazy: () => import("./shipping-profiles-list-YXFTYJGF.mjs"),
+                    lazy: () => import("./shipping-profiles-list-6EPOCRNP.mjs"),
                     children: [
                       {
                         path: "create",
@@ -3979,18 +3979,18 @@ var RouteMap = [
                   },
                   {
                     path: "sales-channels",
-                    lazy: () => import("./location-sales-channels-QLKWO7XQ.mjs")
+                    lazy: () => import("./location-sales-channels-RIQC435T.mjs")
                   },
                   {
                     path: "fulfillment-providers",
-                    lazy: () => import("./location-fulfillment-providers-XLD2VWJ4.mjs")
+                    lazy: () => import("./location-fulfillment-providers-UJNQLD2F.mjs")
                   },
                   {
                     path: "fulfillment-set/:fset_id",
                     children: [
                       {
                         path: "service-zones/create",
-                        lazy: () => import("./location-service-zone-create-ROFVOGVY.mjs")
+                        lazy: () => import("./location-service-zone-create-JWUSJUFK.mjs")
                       },
                       {
                         path: "service-zone/:zone_id",
@@ -4001,7 +4001,7 @@ var RouteMap = [
                           },
                           {
                             path: "areas",
-                            lazy: () => import("./location-service-zone-manage-areas-SXQLZHIL.mjs")
+                            lazy: () => import("./location-service-zone-manage-areas-3FCYTTRZ.mjs")
                           },
                           {
                             path: "shipping-option",
@@ -4043,7 +4043,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./product-tag-list-3OEF72ZA.mjs"),
+                lazy: () => import("./product-tag-list-5WRLXXD5.mjs"),
                 children: [
                   {
                     path: "create",
@@ -4053,7 +4053,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./product-tag-detail-XNSBUBBH.mjs"),
+                lazy: () => import("./product-tag-detail-UEIRJC2F.mjs"),
                 handle: {
                   crumb: (data) => data.product_tag.value
                 },
@@ -4076,7 +4076,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./workflow-execution-list-66E5NLSI.mjs")
+                lazy: () => import("./workflow-execution-list-NJ6IAOLA.mjs")
               },
               {
                 path: ":id",
@@ -4102,7 +4102,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./product-type-list-W6C5JCUJ.mjs"),
+                lazy: () => import("./product-type-list-WYNXBGQQ.mjs"),
                 children: [
                   {
                     path: "create",
@@ -4112,7 +4112,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./product-type-detail-NWP3F3NT.mjs"),
+                lazy: () => import("./product-type-detail-62B5P4IT.mjs"),
                 handle: {
                   crumb: (data) => data.product_type.value
                 },
@@ -4138,7 +4138,7 @@ var RouteMap = [
                 children: [
                   {
                     path: "",
-                    lazy: () => import("./api-key-management-list-JFFSNQDS.mjs"),
+                    lazy: () => import("./api-key-management-list-CRM6XKHZ.mjs"),
                     children: [
                       {
                         path: "create",
@@ -4150,7 +4150,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./api-key-management-detail-APVDOUKD.mjs"),
+                lazy: () => import("./api-key-management-detail-BPEVTV44.mjs"),
                 handle: {
                   crumb: (data) => {
                     return data.api_key.title;
@@ -4163,7 +4163,7 @@ var RouteMap = [
                   },
                   {
                     path: "sales-channels",
-                    lazy: () => import("./api-key-management-sales-channels-EXVZPI7K.mjs")
+                    lazy: () => import("./api-key-management-sales-channels-Y3A7L7LZ.mjs")
                   }
                 ]
               }
@@ -4182,7 +4182,7 @@ var RouteMap = [
                 children: [
                   {
                     path: "",
-                    lazy: () => import("./api-key-management-list-JFFSNQDS.mjs"),
+                    lazy: () => import("./api-key-management-list-CRM6XKHZ.mjs"),
                     children: [
                       {
                         path: "create",
@@ -4194,7 +4194,7 @@ var RouteMap = [
               },
               {
                 path: ":id",
-                lazy: () => import("./api-key-management-detail-APVDOUKD.mjs"),
+                lazy: () => import("./api-key-management-detail-BPEVTV44.mjs"),
                 handle: {
                   crumb: (data) => {
                     return data.api_key.title;
@@ -4246,11 +4246,11 @@ var RouteMap = [
                       },
                       {
                         path: "overrides/create",
-                        lazy: () => import("./tax-region-tax-override-create-EXUYQNCG.mjs")
+                        lazy: () => import("./tax-region-tax-override-create-RHM5FQ7B.mjs")
                       },
                       {
                         path: "overrides/:tax_rate_id/edit",
-                        lazy: () => import("./tax-region-tax-override-edit-VFLXZBAS.mjs")
+                        lazy: () => import("./tax-region-tax-override-edit-P2EFVNYQ.mjs")
                       },
                       {
                         path: "tax-rates/create",
@@ -4287,11 +4287,11 @@ var RouteMap = [
                       },
                       {
                         path: "overrides/create",
-                        lazy: () => import("./tax-region-tax-override-create-EXUYQNCG.mjs")
+                        lazy: () => import("./tax-region-tax-override-create-RHM5FQ7B.mjs")
                       },
                       {
                         path: "overrides/:tax_rate_id/edit",
-                        lazy: () => import("./tax-region-tax-override-edit-VFLXZBAS.mjs")
+                        lazy: () => import("./tax-region-tax-override-edit-P2EFVNYQ.mjs")
                       }
                     ]
                   }
@@ -4308,7 +4308,7 @@ var RouteMap = [
             children: [
               {
                 path: "",
-                lazy: () => import("./return-reason-list-SOV7CPWW.mjs"),
+                lazy: () => import("./return-reason-list-TQB3YOFU.mjs"),
                 children: [
                   {
                     path: "create",
@@ -4344,7 +4344,7 @@ var RouteMap = [
           },
           {
             path: "/reset-password",
-            lazy: () => import("./reset-password-KDEYT24I.mjs")
+            lazy: () => import("./reset-password-KWRVI66I.mjs")
           },
           {
             path: "/invite",

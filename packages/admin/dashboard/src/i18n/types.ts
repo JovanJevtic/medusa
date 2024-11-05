@@ -1,5 +1,4 @@
 import type { Locale } from "date-fns"
-import enUS from "./translations/en.json"
 import srLtn from "./translations/sr.json"
 
 const resources = {

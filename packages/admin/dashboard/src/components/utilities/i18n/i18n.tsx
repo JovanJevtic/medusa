@@ -10,12 +10,12 @@ export const I18n = () => {
   }
 
   i18n
-    .use(
-      new LanguageDetector(null, {
-        lookupCookie: "lng",
-        lookupLocalStorage: "lng",
-      })
-    )
+    // .use(
+    //   new LanguageDetector(null, {
+    //     lookupCookie: "lng",
+    //     lookupLocalStorage: "lng",
+    //   })
+    // )
     .use(initReactI18next)
     .init(defaultI18nOptions)
 
