@@ -84,7 +84,7 @@ function createTailwindConfig(entry: string, sources: string[] = []) {
 
   try {
     dashboard = path.join(
-      path.dirname(require.resolve("@medusajs/dashboard")),
+      path.dirname(require.resolve("medusa-dashboard")),
       "**/*.{js,ts,jsx,tsx}"
     )
   } catch (_e) {

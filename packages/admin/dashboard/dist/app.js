@@ -87717,8 +87717,8 @@ var init_login = __esm({
       return /* @__PURE__ */ (0, import_jsx_runtime603.jsx)("div", { className: "bg-ui-bg-subtle flex min-h-dvh w-dvw items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_runtime603.jsxs)("div", { className: "m-4 flex w-full max-w-[280px] flex-col items-center", children: [
         /* @__PURE__ */ (0, import_jsx_runtime603.jsx)(AvatarBox, {}),
         /* @__PURE__ */ (0, import_jsx_runtime603.jsxs)("div", { className: "mb-4 flex flex-col items-center", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime603.jsx)(import_ui392.Heading, { children: t4("login.title") }),
-          /* @__PURE__ */ (0, import_jsx_runtime603.jsx)(import_ui392.Text, { size: "small", className: "text-ui-fg-subtle text-center", children: t4("login.hint") })
+          /* @__PURE__ */ (0, import_jsx_runtime603.jsx)(import_ui392.Heading, { children: "BLABLABLA NASLOV" }),
+          /* @__PURE__ */ (0, import_jsx_runtime603.jsx)(import_ui392.Text, { size: "small", className: "text-ui-fg-subtle text-center", children: "BLABLABLA TEXT" })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime603.jsxs)("div", { className: "flex w-full flex-col gap-y-3", children: [
           getWidgets("login.before").map((Component5, i) => {
