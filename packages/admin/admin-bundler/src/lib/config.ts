@@ -34,7 +34,7 @@ export async function getViteConfig(
         "react-dom/client",
         "react-router-dom",
         "@medusajs/ui",
-        "@medusajs/dashboard",
+        "medusa-dashboard",
       ],
       exclude: [...VIRTUAL_MODULES],
     },

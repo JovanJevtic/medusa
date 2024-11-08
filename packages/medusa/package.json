@@ -1,5 +1,5 @@
 {
-  "name": "@medusajs/medusa",
+  "name": "medusa-jovan",
   "version": "2.0.1",
   "description": "Building blocks for digital commerce",
   "main": "dist/index.js",
@@ -61,7 +61,7 @@
   "dependencies": {
     "@inquirer/checkbox": "^2.3.11",
     "@inquirer/input": "^2.2.9",
-    "@medusajs/admin-bundler": "^2.0.1",
+    "@medusajs/admin-bundler": "npm:medusa-admin-bundler@2.0.12",
     "@medusajs/api-key": "^2.0.1",
     "@medusajs/auth": "^2.0.1",
     "@medusajs/auth-emailpass": "^2.0.1",
