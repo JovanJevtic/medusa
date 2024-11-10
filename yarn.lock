@@ -4431,8 +4431,8 @@ __metadata:
     "@medusajs/admin-vite-plugin": 2.0.1
     "@medusajs/dashboard": "npm:medusa-dashboard@^2.0.322"
     "@medusajs/types": 2.0.1
-    "@medusajs/ui": "workspace:^"
-    "@medusajs/ui-preset": "workspace:^"
+    "@medusajs/ui": 4.0.1
+    "@medusajs/ui-preset": 2.0.1
     "@types/compression": ^1.7.5
     "@vitejs/plugin-react": ^4.2.1
     autoprefixer: ^10.4.16
@@ -4983,8 +4983,8 @@ __metadata:
     "@medusajs/icons": 2.0.1
     "@medusajs/js-sdk": 2.0.1
     "@medusajs/types": 2.0.1
-    "@medusajs/ui": "workspace:^"
-    "@medusajs/ui-preset": "workspace:^"
+    "@medusajs/ui": 4.0.1
+    "@medusajs/ui-preset": 2.0.1
     "@radix-ui/react-collapsible": 1.1.0
     "@tanstack/react-query": ^5.28.14
     "@tanstack/react-table": 8.20.5
@@ -6462,7 +6462,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/ui-preset@^2.0.1, @medusajs/ui-preset@workspace:^, @medusajs/ui-preset@workspace:packages/design-system/ui-preset":
+"@medusajs/ui-preset@2.0.1, @medusajs/ui-preset@^2.0.1, @medusajs/ui-preset@workspace:packages/design-system/ui-preset":
   version: 0.0.0-use.local
   resolution: "@medusajs/ui-preset@workspace:packages/design-system/ui-preset"
   dependencies:
@@ -6477,7 +6477,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@medusajs/ui@4.0.1, @medusajs/ui@workspace:^, @medusajs/ui@workspace:packages/design-system/ui":
+"@medusajs/ui@4.0.1, @medusajs/ui@workspace:packages/design-system/ui":
   version: 0.0.0-use.local
   resolution: "@medusajs/ui@workspace:packages/design-system/ui"
   dependencies:
@@ -24562,8 +24562,8 @@ __metadata:
   linkType: hard
 
 "msw@npm:^2.3.0":
-  version: 2.6.3
-  resolution: "msw@npm:2.6.3"
+  version: 2.6.4
+  resolution: "msw@npm:2.6.4"
   dependencies:
     "@bundled-es-modules/cookie": ^2.0.1
     "@bundled-es-modules/statuses": ^1.0.1
@@ -24590,7 +24590,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: fd83a8c23bd7f95b2443a500496fcfd883b01afa8ea72adf6b0bd61979be2b6678e2dfdde539b0a1abaafd327ff8ba080c7883113a8db4de5e8c3105fda92396
+  checksum: 1a1faa940cbac754cdf4686876c172339f6af8736ec758ac6ed3897bfa3e2408685903f9fbfa61431ac8a81ec5d9377a280934fafc5403a0b0129a17d9e24cc0
   languageName: node
   linkType: hard
 
@@ -26574,13 +26574,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.2.1, postcss@npm:^8.2.14, postcss@npm:^8.4.23, postcss@npm:^8.4.27, postcss@npm:^8.4.32, postcss@npm:^8.4.33, postcss@npm:^8.4.38, postcss@npm:^8.4.43":
-  version: 8.4.47
-  resolution: "postcss@npm:8.4.47"
+  version: 8.4.48
+  resolution: "postcss@npm:8.4.48"
   dependencies:
     nanoid: ^3.3.7
-    picocolors: ^1.1.0
+    picocolors: ^1.1.1
     source-map-js: ^1.2.1
-  checksum: 929f68b5081b7202709456532cee2a145c1843d391508c5a09de2517e8c4791638f71dd63b1898dba6712f8839d7a6da046c72a5e44c162e908f5911f57b5f44
+  checksum: d586361fda12fc7ab5650ce9b5763fc61d6ea2cecac9da98fceea6a3f27e42ed34db830582411bc06743492d9bb414c52b0c81da65440682d244d692da2f928a
   languageName: node
   linkType: hard
 

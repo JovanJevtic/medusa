@@ -29,7 +29,7 @@
     "@medusajs/admin-shared": "2.0.1",
     "@medusajs/admin-vite-plugin": "2.0.1",
     "@medusajs/dashboard": "npm:medusa-dashboard@^2.0.322",
-    "@medusajs/ui": "2.0.1",
+    "@medusajs/ui": "4.0.1",
     "@medusajs/ui-preset": "2.0.1",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
