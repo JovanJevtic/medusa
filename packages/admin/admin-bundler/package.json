@@ -18,7 +18,7 @@
     "package.json"
   ],
   "devDependencies": {
-    "@medusajs/types": "^2.0.1",
+    "@medusajs/types": "2.0.1",
     "@types/compression": "^1.7.5",
     "copyfiles": "^2.4.1",
     "express": "^4.21.0",
@@ -29,6 +29,8 @@
     "@medusajs/admin-shared": "2.0.1",
     "@medusajs/admin-vite-plugin": "2.0.1",
     "@medusajs/dashboard": "npm:medusa-dashboard@^2.0.322",
+    "@medusajs/ui": "2.0.1",
+    "@medusajs/ui-preset": "2.0.1",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
     "compression": "^1.7.4",
